@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<room>
+  <game-table name="最初のテーブル" width="20" height="15" gridSize="50" imageIdentifier="testTableBackgroundImage_image" backgroundImageIdentifier="imageIdentifier" backgroundFilterType="" selected="false" gridType="0" gridColor="#000000e6"></game-table>
+  <character rotate="0" roll="0" location.name="table" location.x="250" location.y="450" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_1_image</data>
+      </data>
+      <data name="common">
+        <data name="name">モンスターA</data>
+        <data name="size">1</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <character rotate="0" roll="0" location.name="table" location.x="400" location.y="400" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_1_image</data>
+      </data>
+      <data name="common">
+        <data name="name">モンスターB</data>
+        <data name="size">1</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <character rotate="0" roll="0" location.name="table" location.x="200" location.y="100" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_3_image</data>
+      </data>
+      <data name="common">
+        <data name="name">モンスターC</data>
+        <data name="size">3</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <character rotate="0" roll="0" location.name="table" location.x="300" location.y="550" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_4_image</data>
+      </data>
+      <data name="common">
+        <data name="name">キャラクターA</data>
+        <data name="size">1</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <character rotate="0" roll="0" location.name="table" location.x="600" location.y="600" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_5_image</data>
+      </data>
+      <data name="common">
+        <data name="name">キャラクターB</data>
+        <data name="size">1</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <character rotate="0" roll="0" location.name="table" location.x="250" location.y="650" posZ="0">
+    <data name="character">
+      <data name="image">
+        <data type="image" name="imageIdentifier">testCharacter_6_image</data>
+      </data>
+      <data name="common">
+        <data name="name">キャラクターC</data>
+        <data name="size">1</data>
+      </data>
+      <data name="detail">
+        <data name="リソース">
+          <data type="numberResource" currentValue="200" name="HP">200</data>
+          <data type="numberResource" currentValue="100" name="MP">100</data>
+        </data>
+        <data name="情報">
+          <data type="note" name="説明">ここに説明を書く
+あいうえお</data>
+          <data type="note" name="メモ">任意の文字列
+１
+２
+３
+４
+５</data>
+        </data>
+        <data name="能力">
+          <data name="器用度">24</data>
+          <data name="敏捷度">24</data>
+          <data name="筋力">24</data>
+          <data name="生命力">24</data>
+          <data name="知力">24</data>
+          <data name="精神力">24</data>
+        </data>
+        <data name="戦闘特技">
+          <data name="Lv1">全力攻撃</data>
+          <data name="Lv3">武器習熟/ソード</data>
+          <data name="Lv5">武器習熟/ソードⅡ</data>
+          <data name="Lv7">頑強</data>
+          <data name="Lv9">薙ぎ払い</data>
+          <data name="自動">治癒適正</data>
+        </data>
+      </data>
+    </data>
+    <chat-palette dicebot="">チャットパレット入力例：
+2d6+1 ダイスロール
+１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！
+//敏捷=10+{敏捷A}
+//敏捷A=10
+//格闘＝１</chat-palette>
+  </character>
+  <card-stack rotate="0" zindex="4" owner="" isShowTotal="true" location.name="table" location.x="-100" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">アリバイ</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/秘密の場所.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/大浴場.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/エントランス.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/花と食物の畑.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/書斎.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/寝室.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/迷いの森.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/狩猟エリア.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/海辺の鍾乳洞.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/展示部屋.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/化ノ崖.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/倉庫.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/厨房.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/屋上.png</data>
+        <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="5" owner="" isShowTotal="true" location.name="table" location.x="-200" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">キャラクター</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/マジシャン.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/殺し屋.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/心理学者.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/名探偵.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/大学教授.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/多重人格.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/家政婦.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/医者.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/警察.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/弁護士.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/学生.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/記者.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/霊能者.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/タイムリーパー.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/占い師.png</data>
+        <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="6" owner="" isShowTotal="true" location.name="table" location.x="-300" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">ページ</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/怒れる者たち.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/真実はいつも一つ.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/人格シャッフル.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/犯人はこの中にいる.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ポイ捨て.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/白日の下に.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ポーカーフェイス.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/感情的な行動.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/対抗策.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/敵をだますには味方から.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/犯人思考.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/すり替え.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/覆される証言.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/口先の魔術.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/その証言には矛盾がある.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/大パニック.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/こんな場所にいられるか.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ゴシップ記者とのコネ.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/反論.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/盗み聞き.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/共同調査.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/二つ目の致命傷.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/その推理には穴がある.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ダイイングメッセージ.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/致命的な勘違い.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/説得.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/電話線の切断.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/突飛なアイディア.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/トリック・リサイクル.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/相棒.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/死亡推定時刻偽装.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/お前がやったんだろ！.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/正体を現せ！.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/第六感.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/偽装工作.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/被害者の遺書.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/闇堕ち.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ロジカルシンキング.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/現場検証.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ダブルクロス.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/血の無罪証明.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/隠滅された証拠.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/私達、入れ替わってる！？.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/死亡フラグ.png</data>
+        <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="7" owner="" isShowTotal="true" location.name="table" location.x="-400" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">ロール</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/探偵.png</data>
+        <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/犯人サイド.png</data>
+        <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/探偵サイド.png</data>
+        <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/犯人.png</data>
+        <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="8" owner="" isShowTotal="true" location.name="table" location.x="-500" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">関係性</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「婚約・家族・親友」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「ライバル・競合」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「初対面」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「加害者と被害者」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「理解不能・サイコパス」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「知人・友人・恋人」.png</data>
+        <data type="image" name="back">../assets/images/裏面/関係性.png</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="9" owner="" isShowTotal="true" location.name="table" location.x="-600" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">結末</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/仮面パーティー.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/トゥルーエンド.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/命がけの復讐劇.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/叙述トリック.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/偽装された死.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/連続殺人事件.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/疑心暗鬼の渦.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/そうして誰もいなくなった.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/完璧主義者の解答.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/少年漫画的展開.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/傾いた天秤.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/結末/運命のカウントダウン.png</data>
+        <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="10" owner="" isShowTotal="true" location.name="table" location.x="-700" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">死因</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/死因/外傷死.png</data>
+        <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/死因/失血死.png</data>
+        <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/死因/窒息死.png</data>
+        <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/死因/焼死・中毒死.png</data>
+        <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/死因/事故死.png</data>
+        <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="11" owner="" isShowTotal="true" location.name="table" location.x="-800" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">所持品</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ミステリー小説.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自傷癖.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/毒蛇-ヨルムンガンド-.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/鉈.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/安眠枕.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：医療知識.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/爆発物.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自制心.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/洗脳アプリ.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：読心術.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/氷の凶器.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ロープ.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/バーナー.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/金塊.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/金庫.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/注射器.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：推理力.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：危険物取扱者.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ピアノ線.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/毒物.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/車.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：吸血鬼.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：バリツ.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ライター.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/十徳ナイフ.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/睡眠薬.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ガムテープ.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/絶品料理.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/仕込み杖.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/銃.png</data>
+        <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="12" owner="" isShowTotal="true" location.name="table" location.x="-900" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">動機</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「純然たるMurderous」.png</data>
+        <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「衝動的なAccident」.png</data>
+        <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「想いのInsanity」.png</data>
+        <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「正義へのCredulity」.png</data>
+        <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「打算的Logic」.png</data>
+        <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="13" owner="" isShowTotal="true" location.name="table" location.x="-1000" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">犯行現場</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
+    
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/大浴場.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/エントランス.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/花と食物の畑.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/書斎.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/迷いの森.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/狩猟エリア.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/海辺の鍾乳洞.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/展示部屋.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/化ノ崖.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/倉庫.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/厨房.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
+    <data name="card">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/屋上.png</data>
+        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
+      </data>
+      <data name="common">
+        <data name="name">カード</data>
+        <data name="size">2</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+  </card>
+
+    </node>
+  </card-stack>
+</room>

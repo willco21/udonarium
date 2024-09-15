@@ -17,18 +17,67 @@ body {
 }
 
 .output .card {
-    padding: 8px;
-    width: 400px;
-    height: 646px;
-    margin-left: 8px;
-    margin-right: 8px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-image: url("../img/consenfox_card.png");
-    border: 2px gray inset;
-    border-radius: 8px;
-    position: relative;
+  padding: 8px;
+  width: 400px;
+  height: 600px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border: 2px gray inset;
+  border-radius: 8px;
+  position: relative;
+}
+
+.output .アリバイ {
+  border: 10px blue inset;
+  background-image: url("../img/アリバイ.png");
+}
+
+.output .キャラクター {
+  border: 10px red inset;
+  background-image: url("../img/キャラクター.png");
+}
+
+.output .ページ {
+  border: 10px bisque inset;
+  background-image: url("../img/ページ.png");
+}
+
+.output .ロール {
+  border: 10px violet inset;
+  background-image: url("../img/ロール.png");
+}
+
+.output .関係性 {
+  border: 10px pink inset;
+  background-image: url("../img/関係性.png");
+}
+
+.output .結末 {
+  border: 10px black inset;
+  background-image: url("../img/結末.png");
+}
+
+.output .死因 {
+  border: 10px rgb(94, 7, 7) inset;
+  background-image: url("../img/死因.png");
+}
+
+.output .所持品 {
+  border: 10px greenyellow inset;
+  background-image: url("../img/所持品.png");
+}
+
+.output .動機 {
+  border: 10px yellow inset;
+  background-image: url("../img/動機.png");
+}
+
+.output .犯行現場 {
+  border: 10px gray inset;
+  background-image: url("../img/犯行現場.png");
 }
 
 .output .ng-card {
