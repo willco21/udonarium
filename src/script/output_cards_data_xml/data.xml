@@ -311,7 +311,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/屋上.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/秘密の場所.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -326,7 +326,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/狩猟エリア.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/大浴場.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -341,7 +341,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/化ノ崖.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/エントランス.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -356,7 +356,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/エントランス.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/花と食物の畑.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -371,7 +371,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/厨房.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/書斎.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -386,7 +386,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/迷いの森.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/寝室.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -401,7 +401,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/海辺の鍾乳洞.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/迷いの森.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -416,7 +416,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/展示部屋.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/狩猟エリア.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -431,7 +431,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/花と食物の畑.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/海辺の鍾乳洞.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -446,7 +446,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/大浴場.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/展示部屋.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -461,7 +461,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/倉庫.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/化ノ崖.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -476,7 +476,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/秘密の場所.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/倉庫.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -491,7 +491,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/寝室.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/厨房.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -506,7 +506,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/アリバイ/書斎.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/アリバイ/屋上.png</data>
         <data type="image" name="back">../assets/images/裏面/アリバイ.jpg</data>
       </data>
       <data name="common">
@@ -535,7 +535,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/占い師.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/マジシャン.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -550,7 +550,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/学生.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/殺し屋.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -565,7 +565,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/霊能者.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/心理学者.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -580,7 +580,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/記者.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/名探偵.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -595,7 +595,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/名探偵.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/大学教授.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -610,7 +610,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/心理学者.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/多重人格.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -625,7 +625,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/大学教授.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/家政婦.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -640,7 +640,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/家政婦.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/医者.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -655,7 +655,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/マジシャン.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/警察.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -670,7 +670,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/医者.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/弁護士.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -685,7 +685,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/弁護士.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/学生.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -700,7 +700,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/タイムリーパー.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/記者.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -715,7 +715,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/多重人格.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/霊能者.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -730,7 +730,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/警察.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/タイムリーパー.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -745,7 +745,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/キャラクター/殺し屋.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/キャラクター/占い師.png</data>
         <data type="image" name="back">../assets/images/裏面/キャラクター.jpg</data>
       </data>
       <data name="common">
@@ -774,7 +774,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/闇堕ち.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/怒れる者たち.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -789,7 +789,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/盗み聞き.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/真実はいつも一つ.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -804,7 +804,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/犯人思考.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/人格シャッフル.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -819,7 +819,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/口先の魔術.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/犯人はこの中にいる.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -834,7 +834,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/怒れる者たち.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ポイ捨て.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -849,7 +849,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/偽装工作.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/白日の下に.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -864,7 +864,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ダブルクロス.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ポーカーフェイス.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -879,7 +879,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/被害者の遺書.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/感情的な行動.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -894,7 +894,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/人格シャッフル.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/対抗策.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -909,7 +909,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/感情的な行動.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/敵をだますには味方から.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -924,7 +924,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/大パニック.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/犯人思考.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -939,7 +939,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/お前がやったんだろ！.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/すり替え.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -954,7 +954,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/正体を現せ！.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/覆される証言.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -969,7 +969,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/第六感.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/口先の魔術.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -984,7 +984,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/その推理には穴がある.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/その証言には矛盾がある.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -999,7 +999,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/覆される証言.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/大パニック.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1014,7 +1014,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ダイイングメッセージ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/こんな場所にいられるか.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1029,7 +1029,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/すり替え.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ゴシップ記者とのコネ.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1044,7 +1044,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/致命的な勘違い.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/反論.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1059,7 +1059,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/対抗策.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/盗み聞き.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1074,7 +1074,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/真実はいつも一つ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/共同調査.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1089,7 +1089,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/犯人はこの中にいる.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/二つ目の致命傷.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1104,7 +1104,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/敵をだますには味方から.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/その推理には穴がある.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1119,7 +1119,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/電話線の切断.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ダイイングメッセージ.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1134,7 +1134,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/死亡フラグ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/致命的な勘違い.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1149,7 +1149,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/反論.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/説得.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1164,7 +1164,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/私達、入れ替わってる！？.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/電話線の切断.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1179,7 +1179,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/死亡推定時刻偽装.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/突飛なアイディア.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1194,7 +1194,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ポイ捨て.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/トリック・リサイクル.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1209,7 +1209,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/隠滅された証拠.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/相棒.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1224,7 +1224,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/二つ目の致命傷.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/死亡推定時刻偽装.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1239,7 +1239,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ゴシップ記者とのコネ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/お前がやったんだろ！.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1254,7 +1254,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/説得.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/正体を現せ！.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1269,7 +1269,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ポーカーフェイス.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/第六感.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1284,7 +1284,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/こんな場所にいられるか.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/偽装工作.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1299,7 +1299,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/相棒.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/被害者の遺書.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1314,7 +1314,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/その証言には矛盾がある.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/闇堕ち.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1329,7 +1329,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/現場検証.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ロジカルシンキング.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1344,7 +1344,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/白日の下に.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/現場検証.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1359,7 +1359,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/突飛なアイディア.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/ダブルクロス.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1374,7 +1374,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/血の無罪証明.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/血の無罪証明.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1389,7 +1389,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/ロジカルシンキング.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/隠滅された証拠.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1404,7 +1404,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/共同調査.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/私達、入れ替わってる！？.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1419,7 +1419,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ページ/トリック・リサイクル.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ページ/死亡フラグ.png</data>
         <data type="image" name="back">../assets/images/裏面/ページ.jpg</data>
       </data>
       <data name="common">
@@ -1448,7 +1448,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ロール/犯人サイド.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/探偵.png</data>
         <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
       </data>
       <data name="common">
@@ -1463,7 +1463,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ロール/探偵.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/犯人サイド.png</data>
         <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
       </data>
       <data name="common">
@@ -1478,7 +1478,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ロール/犯人.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/探偵サイド.png</data>
         <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
       </data>
       <data name="common">
@@ -1493,7 +1493,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/ロール/探偵サイド.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/ロール/犯人.png</data>
         <data type="image" name="back">../assets/images/裏面/ロール.jpg</data>
       </data>
       <data name="common">
@@ -1522,7 +1522,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「加害者と被害者」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「婚約・家族・親友」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1537,7 +1537,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「理解不能・サイコパス」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「ライバル・競合」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1552,7 +1552,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「ライバル・競合」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「初対面」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1567,7 +1567,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「婚約・家族・親友」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「加害者と被害者」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1582,7 +1582,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「知人・友人・恋人」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「理解不能・サイコパス」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1597,7 +1597,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/関係性/「初対面」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/関係性/「知人・友人・恋人」.png</data>
         <data type="image" name="back">../assets/images/裏面/関係性.png</data>
       </data>
       <data name="common">
@@ -1626,7 +1626,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/仮面パーティー.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/仮面パーティー.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1641,7 +1641,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/命がけの復讐劇.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/トゥルーエンド.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1656,7 +1656,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/連続殺人事件.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/命がけの復讐劇.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1671,7 +1671,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/疑心暗鬼の渦.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/叙述トリック.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1686,7 +1686,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/そうして誰もいなくなった.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/偽装された死.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1701,7 +1701,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/叙述トリック.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/連続殺人事件.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1716,7 +1716,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/トゥルーエンド.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/疑心暗鬼の渦.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1731,7 +1731,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/少年漫画的展開.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/そうして誰もいなくなった.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1746,7 +1746,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/傾いた天秤.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/完璧主義者の解答.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1761,7 +1761,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/完璧主義者の解答.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/少年漫画的展開.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1776,7 +1776,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/偽装された死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/傾いた天秤.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1791,7 +1791,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/結末/運命のカウントダウン.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/結末/運命のカウントダウン.png</data>
         <data type="image" name="back">../assets/images/裏面/結末.jpg</data>
       </data>
       <data name="common">
@@ -1820,7 +1820,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/死因/窒息死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/死因/外傷死.png</data>
         <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
       </data>
       <data name="common">
@@ -1835,7 +1835,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/死因/失血死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/死因/失血死.png</data>
         <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
       </data>
       <data name="common">
@@ -1850,7 +1850,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/死因/外傷死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/死因/窒息死.png</data>
         <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
       </data>
       <data name="common">
@@ -1865,7 +1865,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/死因/焼死・中毒死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/死因/焼死・中毒死.png</data>
         <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
       </data>
       <data name="common">
@@ -1880,7 +1880,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/死因/事故死.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/死因/事故死.png</data>
         <data type="image" name="back">../assets/images/裏面/死因.jpg</data>
       </data>
       <data name="common">
@@ -1909,7 +1909,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/絶品料理.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ミステリー小説.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1924,7 +1924,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：吸血鬼.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自傷癖.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1939,7 +1939,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/銃.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/毒蛇-ヨルムンガンド-.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1954,7 +1954,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自傷癖.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/鉈.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1969,7 +1969,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：読心術.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/安眠枕.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1984,7 +1984,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/仕込み杖.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：医療知識.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -1999,7 +1999,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/金塊.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/爆発物.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2014,7 +2014,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：推理力.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自制心.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2029,7 +2029,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：危険物取扱者.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/洗脳アプリ.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2044,7 +2044,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：バリツ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：読心術.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2059,7 +2059,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/ライター.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/氷の凶器.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2074,7 +2074,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/車.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ロープ.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2089,7 +2089,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/毒物.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/バーナー.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2104,7 +2104,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/金庫.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/金塊.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2119,7 +2119,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/安眠枕.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/金庫.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2134,7 +2134,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/十徳ナイフ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/注射器.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2149,7 +2149,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/洗脳アプリ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：推理力.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2164,7 +2164,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/毒蛇-ヨルムンガンド-.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：危険物取扱者.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2179,7 +2179,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/バーナー.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ピアノ線.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2194,7 +2194,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/鉈.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/毒物.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2209,7 +2209,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/ピアノ線.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/車.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2224,7 +2224,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：自制心.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：吸血鬼.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2239,7 +2239,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/ガムテープ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：バリツ.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2254,7 +2254,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/氷の凶器.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ライター.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2269,7 +2269,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/ロープ.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/十徳ナイフ.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2284,7 +2284,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/ミステリー小説.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/睡眠薬.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2299,7 +2299,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/スキル：医療知識.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/ガムテープ.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2314,7 +2314,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/睡眠薬.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/絶品料理.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2329,7 +2329,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/注射器.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/仕込み杖.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2344,7 +2344,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/所持品/爆発物.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/所持品/銃.png</data>
         <data type="image" name="back">../assets/images/裏面/所持品.jpg</data>
       </data>
       <data name="common">
@@ -2373,7 +2373,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/動機/「正義へのCredulity」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「純然たるMurderous」.png</data>
         <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
       </data>
       <data name="common">
@@ -2388,7 +2388,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/動機/「想いのInsanity」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「衝動的なAccident」.png</data>
         <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
       </data>
       <data name="common">
@@ -2403,7 +2403,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/動機/「衝動的なAccident」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「想いのInsanity」.png</data>
         <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
       </data>
       <data name="common">
@@ -2418,7 +2418,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/動機/「打算的Logic」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「正義へのCredulity」.png</data>
         <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
       </data>
       <data name="common">
@@ -2433,7 +2433,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/動機/「純然たるMurderous」.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/動機/「打算的Logic」.png</data>
         <data type="image" name="back">../assets/images/裏面/動機.jpg</data>
       </data>
       <data name="common">
@@ -2462,7 +2462,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/屋上.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/大浴場.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2477,7 +2477,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/狩猟エリア.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/エントランス.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2492,7 +2492,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/化ノ崖.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/花と食物の畑.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2507,7 +2507,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/エントランス.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/書斎.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2522,7 +2522,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/厨房.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/迷いの森.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2537,7 +2537,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/迷いの森.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/狩猟エリア.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2552,7 +2552,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/海辺の鍾乳洞.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/海辺の鍾乳洞.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2567,7 +2567,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/展示部屋.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/展示部屋.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2582,7 +2582,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/花と食物の畑.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/化ノ崖.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2597,7 +2597,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/output.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/倉庫.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2612,7 +2612,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/大浴場.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/厨房.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">
@@ -2627,22 +2627,7 @@
     <data name="card">
       <data name="image">
         <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/倉庫.html.png</data>
-        <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
-      </data>
-      <data name="common">
-        <data name="name">カード</data>
-        <data name="size">2</data>
-      </data>
-      <data name="detail"></data>
-    </data>
-  </card>
-
-  <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
-    <data name="card">
-      <data name="image">
-        <data type="image" name="imageIdentifier"></data>
-        <data type="image" name="front">../assets/images/card_factory/犯行現場/書斎.html.png</data>
+        <data type="image" name="front">../assets/images/card_factory/犯行現場/屋上.png</data>
         <data type="image" name="back">../assets/images/裏面/犯行現場.jpg</data>
       </data>
       <data name="common">

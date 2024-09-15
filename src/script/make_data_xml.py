@@ -1,10 +1,9 @@
-import os
 from pathlib import Path
 
 # 定数
 DATA_CARD_TEMPLATE_PATH = Path("data_card.xml.template")
 DATA_TEMPLATE_PATH = Path("data.xml.template")
-OUTPUT_DIR = Path("output_cards")
+OUTPUT_DIR = Path("output_cards_data_xml")
 OUTPUT_DATA_PATH = Path(f"{OUTPUT_DIR}/data.xml")
 
 FRONT_IMAGE_DIR_PREFIX = Path("../assets/images/card_factory")
