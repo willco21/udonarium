@@ -301,7 +301,7 @@
         <data type="image" name="imageIdentifier"></data>
       </data>
       <data name="common">
-        <data name="name">バッジ</data>
+        <data name="name">イニシアティブマーカー</data>
       </data>
       <data name="detail"></data>
     </data>
@@ -314,12 +314,25 @@
             <data type="image" name="back">../assets/images/イニシアティブマーカー.png</data>
           </data>
           <data name="common">
-            <data name="name">バッジ</data>
+            <data name="name">イニシアティブマーカー</data>
             <data name="size">2</data>
           </data>
           <data name="detail"></data>
         </data>
       </card>
+    </node>
+  </card-stack>
+  <card-stack rotate="0" zindex="4" owner="" isShowTotal="true" location.name="table" location.x="100" location.y="-650" posZ="0">
+    <data name="card-stack">
+      <data name="image">
+        <data type="image" name="imageIdentifier"></data>
+      </data>
+      <data name="common">
+        <data name="name">不信感カウンター</data>
+      </data>
+      <data name="detail"></data>
+    </data>
+    <node name="cardRoot">
       <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
         <data name="card">
           <data name="image">
@@ -328,7 +341,7 @@
             <data type="image" name="back">../assets/images/不信感カウンター.png</data>
           </data>
           <data name="common">
-            <data name="name">バッジ</data>
+            <data name="name">不信感カウンター</data>
             <data name="size">2</data>
           </data>
           <data name="detail"></data>
@@ -347,7 +360,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -571,7 +584,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -810,7 +823,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -1484,7 +1497,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -1558,7 +1571,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -1662,7 +1675,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -1856,7 +1869,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -1945,7 +1958,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -2409,7 +2422,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
@@ -2498,7 +2511,7 @@
       <data name="detail"></data>
     </data>
     <node name="cardRoot">
-    
+
   <card state="0" rotate="0" owner="" zindex="3" location.name="table" location.x="32.269790923578796" location.y="-601.512589734447" posZ="0">
     <data name="card">
       <data name="image">
