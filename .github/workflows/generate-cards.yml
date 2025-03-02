@@ -1,0 +1,86 @@
+name: Generate Cards
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Install system dependencies for Puppeteer
+    - name: Install system libraries
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+          libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 \
+          libgtk-3-0 libasound2
+
+    # Setup Node.js with caching
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: ./card_factory/package-lock.json
+
+    # Install Chromium using official GitHub action
+    - name: Install Chromium
+      uses: actions/chromium@v1
+      with:
+        install-deps: true
+
+    - name: Install npm dependencies
+      working-directory: ./card_factory
+      run: npm ci --production
+
+    - name: Validate permissions
+      run: |
+        ls -l ./card_factory/generate.sh
+        test -x ./card_factory/generate.sh || chmod +x ./card_factory/generate.sh
+
+    - name: Run generate script with retry
+      working-directory: ./card_factory
+      run: |
+        max_retries=3
+        count=0
+        until [ $count -ge $max_retries ]
+        do
+          ./generate.sh && exit 0
+          count=$((count+1))
+          echo "Retry $count/$max_retries"
+          sleep 10
+        done
+        exit 1
+
+    # Upload artifacts on failure
+    - name: Upload error artifacts
+      if: ${{ failure() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: error-artifacts
+        path: |
+          ./card_factory/app/v1/output.png
+          ./card_factory/app/v1/card_html/**
+        retention-days: 1
+
+    # Upload output artifacts on success
+    - name: Upload output artifacts
+      if: ${{ success() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-cards
+        path: |
+          ./card_factory/app/v1/output.png
+          ./card_factory/app/v1/card_html/**
+          ./card_factory/source_csv/*
+        retention-days: 7
