@@ -19,11 +19,7 @@ jobs:
     - name: Install system libraries
       run: |
         sudo apt-get update
-        sudo apt-get install -y wget
-        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+        sudo apt-get install -y libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
           libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 \
           libgtk-3-0 libasound2
 
@@ -34,10 +30,16 @@ jobs:
         cache: 'npm'
         cache-dependency-path: ./card_factory/package-lock.json
 
+    - name: Setup Chrome
+      id: setup-chrome
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: 'stable'
+
     - name: Install npm dependencies
       working-directory: ./card_factory
       env:
-        CHROME_PATH: /usr/bin/google-chrome
+        CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
       run: |
         npm ci --production
         npm install puppeteer
@@ -50,7 +52,7 @@ jobs:
     - name: Run generate script with retry
       working-directory: ./card_factory
       env:
-        CHROME_PATH: /usr/bin/google-chrome
+        CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
       run: |
         max_retries=3
         count=0
