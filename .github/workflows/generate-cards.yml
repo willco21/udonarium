@@ -9,8 +9,14 @@ on:
 
 jobs:
   export-gss-to-csv:
+    # Allow the job to fetch a GitHub ID token
+    permissions:
+      id-token: write
+      contents: read
+
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
