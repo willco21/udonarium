@@ -21,7 +21,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
           libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 \
-          libgtk-3-0 libasound2
+          libgtk-3-0 libasound2t64
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
