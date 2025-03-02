@@ -7,7 +7,6 @@ on:
     branches: [ "master" ]
   workflow_dispatch:
 
-
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -17,15 +16,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # Install system dependencies for Puppeteer
     - name: Install system libraries
       run: |
         sudo apt-get update
-        sudo apt-get install -y libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+        sudo apt-get install -y wget
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
           libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 \
           libgtk-3-0 libasound2
 
-    # Setup Node.js with caching
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
@@ -33,23 +34,23 @@ jobs:
         cache: 'npm'
         cache-dependency-path: ./card_factory/package-lock.json
 
-    # Install Chromium using official GitHub action
-    - name: Install Chromium
-      uses: actions/chromium@v1
-      with:
-        install-deps: true
-
     - name: Install npm dependencies
       working-directory: ./card_factory
-      run: npm ci --production
+      env:
+        CHROME_PATH: /usr/bin/google-chrome
+      run: |
+        npm ci --production
+        npm install puppeteer
 
     - name: Validate permissions
       run: |
+        chmod +x ./card_factory/generate.sh
         ls -l ./card_factory/generate.sh
-        test -x ./card_factory/generate.sh || chmod +x ./card_factory/generate.sh
 
     - name: Run generate script with retry
       working-directory: ./card_factory
+      env:
+        CHROME_PATH: /usr/bin/google-chrome
       run: |
         max_retries=3
         count=0
