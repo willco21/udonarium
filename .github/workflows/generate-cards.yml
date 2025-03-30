@@ -34,8 +34,8 @@ jobs:
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
       with:
-        workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
-        service_account: ${{ secrets.SERVICE_ACCOUNT }}
+        workload_identity_provider: projects/7847873672/locations/global/workloadIdentityPools/github/providers/my-repo
+        service_account: my-service-account@eng-cogency-213906.iam.gserviceaccount.com
 
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v2
@@ -46,22 +46,16 @@ jobs:
       run: |
         python -c "
         import gspread
-        from google.oauth2.service_account import Credentials
+        import google.auth
         import csv
         import os
 
-        # サービスアカウントキーのパスを指定
-        service_account_file = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
-
-        # 認証情報の取得
-        credentials = Credentials.from_service_account_file(service_account_file, scopes=[
-            'https://www.googleapis.com/auth/spreadsheets',
-            'https://www.googleapis.com/auth/drive'
-        ])
-        client = gspread.authorize(credentials)
+        spreadsheet_id = '1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE'
+        # 認証情報の自動取得
+        credentials, project_id = google.auth.default()
+        client = gspread.Client(auth=credentials)
 
         # スプレッドシートを開く
-        spreadsheet_id = '1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE'
         spreadsheet = client.open_by_key(spreadsheet_id)
 
         # シート一覧を取得
