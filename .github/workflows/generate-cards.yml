@@ -47,6 +47,8 @@ jobs:
       env:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
+        set -uxo pipefail
+        gcloud auth print-access-token
         ACCESS_TOKEN=$(gcloud auth print-access-token)
         SPREADSHEET_ID="$SPREADSHEET_KEY"
 
