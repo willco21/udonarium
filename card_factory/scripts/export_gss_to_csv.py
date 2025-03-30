@@ -3,6 +3,7 @@ from google.oauth2.service_account import Credentials
 import csv
 import os
 import sys
+import json
 
 def export_gss_to_csv(sheet_id):
     # Google API認証設定
@@ -11,8 +12,10 @@ def export_gss_to_csv(sheet_id):
         'https://www.googleapis.com/auth/drive'
     ]
 
-    credentials = Credentials.from_service_account_file(
-        os.environ['GOOGLE_APPLICATION_CREDENTIALS'],
+    # 環境変数から直接JSONを読み込む
+    service_account_info = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
+    credentials = Credentials.from_service_account_info(
+        service_account_info,
         scopes=scopes
     )
     gc = gspread.Client(auth=credentials)
