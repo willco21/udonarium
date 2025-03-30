@@ -12,8 +12,10 @@ def export_gss_to_csv(sheet_id):
         'https://www.googleapis.com/auth/drive'
     ]
 
-    # 環境変数から直接JSONを読み込む
-    service_account_info = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
+    # 環境変数からJSONファイルを読み込む
+    credentials_path = os.environ['GOOGLE_APPLICATION_CREDENTIALS']
+    with open(credentials_path, 'r') as f:
+        service_account_info = json.load(f)
     credentials = Credentials.from_service_account_info(
         service_account_info,
         scopes=scopes
