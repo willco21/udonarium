@@ -47,8 +47,6 @@ jobs:
       env:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
-        sudo apt-get update
-        sudo apt-get install -y jq
         ACCESS_TOKEN=$(gcloud auth print-access-token)
         SPREADSHEET_ID="$SPREADSHEET_KEY"
 
