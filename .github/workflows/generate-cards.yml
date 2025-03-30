@@ -42,7 +42,7 @@ jobs:
 
     - name: Export Google Sheet to CSV
       env:
-        SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnDkdltelndq1pkAE"
+        SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
         python -c "
         import gspread
