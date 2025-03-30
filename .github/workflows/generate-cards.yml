@@ -48,11 +48,11 @@ jobs:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
         set -uxo pipefail
-        gcloud auth print-access-token
         ACCESS_TOKEN=$(gcloud auth print-access-token)
         SPREADSHEET_ID="$SPREADSHEET_KEY"
 
         # Fetch spreadsheet metadata
+        curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" "https://sheets.googleapis.com/v4/spreadsheets/$SPREADSHEET_ID"
         METADATA=$(curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" "https://sheets.googleapis.com/v4/spreadsheets/$SPREADSHEET_ID")
         if [ $? -ne 0 ]; then
           echo "Failed to fetch spreadsheet metadata"
