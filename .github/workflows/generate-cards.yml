@@ -47,34 +47,37 @@ jobs:
       env:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
-        python -c "
-        import gspread
-        import google.auth
-        import csv
-        import os
+        sudo apt-get update
+        sudo apt-get install -y jq
+        ACCESS_TOKEN=$(gcloud auth print-access-token)
+        SPREADSHEET_ID="$SPREADSHEET_KEY"
 
-        spreadsheet_id = '1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE'
-        # 認証情報の自動取得
-        credentials, project_id = google.auth.default()
-        print(credentials.get_cred_info(), project_id)
-        client = gspread.Client(credentials)
+        # Fetch spreadsheet metadata
+        METADATA=$(curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" "https://sheets.googleapis.com/v4/spreadsheets/$SPREADSHEET_ID")
+        if [ $? -ne 0 ]; then
+          echo "Failed to fetch spreadsheet metadata"
+          exit 1
+        fi
 
-        # スプレッドシートを開く
-        spreadsheet = client.open_by_key(spreadsheet_id)
+        # Extract sheet IDs and titles
+        SHEETS=$(echo "$METADATA" | jq -r '.sheets[] | (.properties.sheetId | tostring) + "|" + .properties.title')
+        if [ -z "$SHEETS" ]; then
+          echo "No sheets found in the spreadsheet"
+          exit 1
+        fi
 
-        # シート一覧を取得
-        sheets = spreadsheet.worksheets()
+        mkdir -p card_factory/source_csv
 
-        # CSV保存用ディレクトリ作成
-        os.makedirs('card_factory/source_csv', exist_ok=True)
-
-        # 各シートをCSVにエクスポート
-        for sheet in sheets:
-            filename = f'card_factory/source_csv/{sheet.title}.csv'
-            with open(filename, 'w', newline='', encoding='utf-8') as f:
-                writer = csv.writer(f)
-                writer.writerows(sheet.get_all_values())
-        "
+        while IFS='|' read -r gid title; do
+            echo "Exporting $title (gid: $gid)..."
+            curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" \
+                 -L "https://docs.google.com/spreadsheets/d/$SPREADSHEET_ID/export?format=csv&gid=$gid" \
+                 -o "card_factory/source_csv/$title.csv"
+            if [ $? -ne 0 ]; then
+              echo "Failed to export $title"
+              exit 1
+            fi
+        done <<< "$SHEETS"
 
     - name: Upload CSV files
       uses: actions/upload-artifact@v4
