@@ -56,8 +56,8 @@ jobs:
         spreadsheet_id = '1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE'
         # 認証情報の自動取得
         credentials, project_id = google.auth.default()
-        print(credentials, project_id)
-        client = gspread.Client(auth=credentials)
+        print(credentials.get_cred_info(), project_id)
+        client = gspread.Client(credentials)
 
         # スプレッドシートを開く
         spreadsheet = client.open_by_key(spreadsheet_id)
