@@ -40,6 +40,9 @@ jobs:
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v2
 
+    - name: 'Use gcloud CLI'
+      run: 'gcloud info'
+
     - name: Export Google Sheet to CSV
       env:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
