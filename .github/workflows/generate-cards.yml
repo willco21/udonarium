@@ -29,7 +29,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install gspread oauth2client
+        pip install gspread google-auth
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
@@ -44,40 +44,9 @@ jobs:
       run: 'gcloud info'
 
     - name: Export Google Sheet to CSV
-      env:
-        SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
+      working-directory: ./card_factory
       run: |
-        set -uxo pipefail
-        ACCESS_TOKEN=$(gcloud auth print-access-token)
-        SPREADSHEET_ID="$SPREADSHEET_KEY"
-
-        # Fetch spreadsheet metadata
-        curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" "https://sheets.googleapis.com/v4/spreadsheets/$SPREADSHEET_ID"
-        METADATA=$(curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" "https://sheets.googleapis.com/v4/spreadsheets/$SPREADSHEET_ID")
-        if [ $? -ne 0 ]; then
-          echo "Failed to fetch spreadsheet metadata"
-          exit 1
-        fi
-
-        # Extract sheet IDs and titles
-        SHEETS=$(echo "$METADATA" | jq -r '.sheets[] | (.properties.sheetId | tostring) + "|" + .properties.title')
-        if [ -z "$SHEETS" ]; then
-          echo "No sheets found in the spreadsheet"
-          exit 1
-        fi
-
-        mkdir -p card_factory/source_csv
-
-        while IFS='|' read -r gid title; do
-            echo "Exporting $title (gid: $gid)..."
-            curl -s -f -H "Authorization: Bearer $ACCESS_TOKEN" \
-                 -L "https://docs.google.com/spreadsheets/d/$SPREADSHEET_ID/export?format=csv&gid=$gid" \
-                 -o "card_factory/source_csv/$title.csv"
-            if [ $? -ne 0 ]; then
-              echo "Failed to export $title"
-              exit 1
-            fi
-        done <<< "$SHEETS"
+        python scripts/export_gss_to_csv.py "$SHEET_ID"
 
     - name: Upload CSV files
       uses: actions/upload-artifact@v4
