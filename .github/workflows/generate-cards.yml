@@ -58,7 +58,9 @@ jobs:
         import os
 
         # Get credentials
-        client = gspread.oauth()
+        client = gspread.oauth(
+            credentials_filename=os.environ['GOOGLE_APPLICATION_CREDENTIALS']
+        )
 
         # スプレッドシートを開く
         spreadsheet = client.open_by_key(os.environ['SPREADSHEET_KEY'])
