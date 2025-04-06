@@ -29,7 +29,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install gspread oauth2client
+        pip install gspread
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
@@ -58,7 +58,7 @@ jobs:
         import os
 
         # Required OAuth scope for Google Sheets API
-        SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+        SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
         # Get credentials with required scopes
         credentials, project_id = google.auth.default(scopes=SCOPES)
