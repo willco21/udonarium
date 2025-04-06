@@ -62,10 +62,7 @@ jobs:
             'https://www.googleapis.com/auth/spreadsheets',
             'https://www.googleapis.com/auth/drive'
         ]
-        credentials, project_id = google.auth.load_credentials_from_file(
-          filename=os.environ['GOOGLE_APPLICATION_CREDENTIALS'],
-          scopes=scopes
-        )
+        credentials, project_id = google.auth.default(scopes=scopes)
         client = gspread.authorize(credentials)
 
         # スプレッドシートを開く
