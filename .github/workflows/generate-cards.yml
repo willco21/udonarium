@@ -57,9 +57,6 @@ jobs:
         import csv
         import os
 
-        # Required OAuth scope for Google Sheets API
-        SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-
         # Get credentials with required scopes
         credentials, project_id = google.auth.default(scopes=SCOPES)
         client = gspread.Client(auth=credentials)
@@ -79,7 +76,6 @@ jobs:
             with open(filename, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerows(sheet.get_all_values())
-
         "
 
     - name: Upload CSV files
