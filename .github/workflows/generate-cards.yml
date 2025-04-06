@@ -29,7 +29,7 @@ jobs:
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install gspread
+        pip install gspread google-auth google-api-python-client
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
@@ -52,34 +52,49 @@ jobs:
         SPREADSHEET_KEY: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
       run: |
         python -c "
-        import gspread
-        import google.auth
-        import csv
         import os
+        import csv
+        from google.auth import default
+        from googleapiclient.discovery import build
 
-        # Get credentials
-        scopes = [
-            'https://www.googleapis.com/auth/spreadsheets',
-            'https://www.googleapis.com/auth/drive'
-        ]
-        credentials, project_id = google.auth.default(scopes=scopes)
-        client = gspread.authorize(credentials)
+        # 環境変数からスプレッドシートIDを取得
+        SPREADSHEET_ID = os.getenv('SPREADSHEET_KEY')
 
-        # スプレッドシートを開く
-        spreadsheet = client.open_by_key(os.environ['SPREADSHEET_KEY'])
+        # Google Cloudのデフォルト認証情報を取得
+        credentials, project_id = default(scopes=[
+            'https://www.googleapis.com/auth/spreadsheets.readonly',
+            'https://www.googleapis.com/auth/drive.readonly'
+        ])
 
-        # シート一覧を取得
-        sheets = spreadsheet.worksheets()
+        # Google Sheets APIクライアントを作成
+        service = build('sheets', 'v4', credentials=credentials)
 
-        # CSV保存用ディレクトリ作成
+        # スプレッドシートのメタデータを取得
+        spreadsheet = service.spreadsheets().get(spreadsheetId=SPREADSHEET_ID).execute()
+        sheets = spreadsheet.get('sheets', [])
+
+        # CSV保存用ディレクトリを作成
         os.makedirs('card_factory/source_csv', exist_ok=True)
 
         # 各シートをCSVにエクスポート
         for sheet in sheets:
-            filename = f'card_factory/source_csv/{sheet.title}.csv'
+            sheet_title = sheet['properties']['title']
+
+            # シートのデータを取得
+            result = service.spreadsheets().values().get(
+                spreadsheetId=SPREADSHEET_ID,
+                range=sheet_title
+            ).execute()
+
+            values = result.get('values', [])
+
+            # CSVファイルに書き込み
+            filename = f'card_factory/source_csv/{sheet_title}.csv'
             with open(filename, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
-                writer.writerows(sheet.get_all_values())
+                writer.writerows(values)
+
+        print('CSVエクスポートが完了しました。')
         "
 
     - name: Upload CSV files
