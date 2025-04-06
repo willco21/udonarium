@@ -58,9 +58,12 @@ jobs:
         import os
 
         # Get credentials
-        credentials, project_id = google.auth.default()
+        scopes = [
+            'https://www.googleapis.com/auth/spreadsheets',
+            'https://www.googleapis.com/auth/drive'
+        ]
+        credentials, project_id = google.auth.default(scopes=scopes)
         client = gspread.Client(auth=credentials)
-        client.auth.scopes = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
         # スプレッドシートを開く
         spreadsheet = client.open_by_key(os.environ['SPREADSHEET_KEY'])
