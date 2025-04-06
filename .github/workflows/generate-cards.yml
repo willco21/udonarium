@@ -33,6 +33,7 @@ jobs:
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
+      id: 'auth'
       with:
         workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
         service_account: ${{ secrets.SERVICE_ACCOUNT }}
@@ -43,7 +44,7 @@ jobs:
     - id: 'gcloud'
       name: 'gcloud'
       run: |-
-        gcloud auth login --brief
+        gcloud auth login --brief --cred-file="${{ steps.auth.outputs.credentials_file_path }}"
         gcloud services list
 
     - name: Export Google Sheet to CSV
