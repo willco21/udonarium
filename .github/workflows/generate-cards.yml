@@ -57,8 +57,8 @@ jobs:
         import csv
         import os
 
-        # Get credentials with required scopes
-        credentials, project_id = google.auth.default(scopes=SCOPES)
+        # Get credentials
+        credentials, project_id = google.auth.default()
         client = gspread.Client(auth=credentials)
 
         # スプレッドシートを開く
