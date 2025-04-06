@@ -53,17 +53,18 @@ jobs:
       run: |
         python -c "
         import gspread
-        import google.auth
+        from google.oauth2.service_account import Credentials
         import csv
         import os
 
-        # Get credentials
-        scopes = [
-            'https://www.googleapis.com/auth/spreadsheets',
+        credentials_file = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+
+        # 認証情報の取得
+        credentials = Credentials.from_service_account_file(credentials_file, scopes=[
+            'https://www.googleapis.com/auth/spreadsheets.readonly',
             'https://www.googleapis.com/auth/drive'
-        ]
-        credentials, project_id = google.auth.default(scopes=scopes)
-        client = gspread.Client(auth=credentials)
+        ])
+        client = gspread.authorize(credentials)
 
         # スプレッドシートを開く
         spreadsheet = client.open_by_key(os.environ['SPREADSHEET_KEY'])
