@@ -1,0 +1,119 @@
+name: Generate Cards
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  export-gss-to-csv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate with Google Cloud
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: "${{ vars.WORKLOAD_IDENTITY_PROVIDER }}"
+        service_account: "inf-card@eng-cogency-213906.iam.gserviceaccount.com"
+
+    - name: Export Google Sheets to CSV
+      uses: jroehl/gsheet.action@v2.1.1
+      with:
+        credentials_json: "${{ env.GOOGLE_APPLICATION_CREDENTIALS }}"
+        sheet_id: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
+        output_dir: "card_factory/source_csv"
+
+    - name: Upload CSV files
+      uses: actions/upload-artifact@v4
+      with:
+        name: exported-csv
+        path: card_factory/source_csv/*.csv
+        retention-days: 3
+
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs: export-gss-to-csv
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install system libraries
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+          libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 \
+          libgtk-3-0 libasound2t64
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: ./card_factory/package-lock.json
+
+    - name: Setup Chrome
+      id: setup-chrome
+      uses: browser-actions/setup-chrome@v1
+      with:
+        chrome-version: 'stable'
+
+    - name: Install npm dependencies
+      working-directory: ./card_factory
+      env:
+        CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+      run: |
+        npm ci --production
+        npm install puppeteer
+
+    - name: Validate permissions
+      run: |
+        chmod +x ./card_factory/generate.sh
+        ls -l ./card_factory/generate.sh
+
+    - name: Run generate script with retry
+      working-directory: ./card_factory
+      env:
+        CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+      run: |
+        max_retries=3
+        count=0
+        until [ $count -ge $max_retries ]
+        do
+          ./generate.sh && exit 0
+          count=$((count+1))
+          echo "Retry $count/$max_retries"
+          sleep 10
+        done
+        exit 1
+
+    # Upload artifacts on failure
+    - name: Upload error artifacts
+      if: ${{ failure() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: error-artifacts
+        path: |
+          ./src/assets/images/card_factory/**
+          ./card_factory/app/v1/card_html/**
+          ./card_factory/source_csv/*
+        retention-days: 1
+
+    # Upload output artifacts on success
+    - name: Upload output artifacts
+      if: ${{ success() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-cards
+        path: |
+          ./src/assets/images/card_factory/**
+          ./card_factory/app/v1/card_html/**
+          ./card_factory/source_csv/*
+        retention-days: 7
