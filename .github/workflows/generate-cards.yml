@@ -16,30 +16,18 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - id: googlesheet_actions
-      uses: rjoydip/googlesheet-actions@0.1.1
+    - name: Authenticate with Google Cloud
+      uses: google-github-actions/auth@v2
       with:
-        sheet-id: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
+        workload_identity_provider: "${{ vars.WORKLOAD_IDENTITY_PROVIDER }}"
+        service_account: "inf-card@eng-cogency-213906.iam.gserviceaccount.com"
 
-    - name: Save JSON to CSV
-      run: |
-        echo "${{ steps.googlesheet_actions.outputs.result }}" > data.json
-        python -c "
-        import json
-        import csv
-        import os
-
-        # JSONファイルを読み込む
-        with open('data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        # CSVファイルに書き込む
-        os.makedirs('card_factory/source_csv', exist_ok=True)
-        for sheet_name, rows in data.items():
-            with open(f'card_factory/source_csv/{sheet_name}.csv', 'w', newline='', encoding='utf-8') as csvfile:
-                writer = csv.writer(csvfile)
-                writer.writerows(rows)
-        "
+    - name: Export Google Sheets to CSV
+      uses: gsheet-action/gsheet-action@v1
+      with:
+        credentials_json: "${{ env.GOOGLE_APPLICATION_CREDENTIALS }}"
+        sheet_id: "1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE"
+        output_dir: "card_factory/source_csv"
 
     - name: Upload CSV files
       uses: actions/upload-artifact@v4
