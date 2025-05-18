@@ -33,25 +33,17 @@ jobs:
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
 
-    - name: Cache node modules
-      uses: actions/cache@v4.2.3
-      env:
-        cache-name: cache-node-modules
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-build-${{ env.cache-name }}-
-          ${{ runner.os }}-build-
+        node-version: '20'
 
-    - name: Install modules
-      run: npm ci
-
-    - name: Build
-      run: npm run build
+    - name: Install npm dependencies for gss-csv.js
+      run: npm install googleapis google-auth-library
+      working-directory: .github/workflows
 
     - name: Export Google Sheet to CSV using gss-csv.js
-      run:  node dist/gss-csv.js
+      run: node gss-csv.js
       working-directory: .github/workflows
       env:
         GOOGLE_APPLICATION_CREDENTIALS: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
