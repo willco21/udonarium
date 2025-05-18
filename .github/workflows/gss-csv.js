@@ -1,10 +1,9 @@
-import { google } from "googleapis";
-import { GoogleAuth } from "google-auth-library";
-import { JSONClient } from "google-auth-library/build/src/auth/googleauth";
-import fs from "fs";
+const { google } = require("googleapis");
+const { GoogleAuth } = require("google-auth-library");
+const fs = require("fs");
 
 const SCOPES = ["https://www.googleapis.com/auth/spreadsheets"];
-async function main(auth: GoogleAuth<JSONClient>) {
+async function main(auth) {
   const authClient = await auth.getClient();
   const sheets = google.sheets({ version: "v4", auth: authClient });
   try {
@@ -33,7 +32,7 @@ async function main(auth: GoogleAuth<JSONClient>) {
     process.exit(1);
   }
 }
-const auth = new google.auth.GoogleAuth({
+const auth = new GoogleAuth({
   scopes: SCOPES,
 });
 main(auth);
