@@ -19,17 +19,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install gspread google-auth
+      uses: actions/checkout@v
 
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
@@ -43,33 +33,27 @@ jobs:
     - name: 'Use gcloud CLI'
       run: 'gcloud info'
 
-    - name: Extract Google credentials for gsheet.action
-      id: extract_gsheet_creds
-      run: |
-        cat $GOOGLE_APPLICATION_CREDENTIALS
-        CLIENT_EMAIL=$(jq -r '.client_email' "$GOOGLE_APPLICATION_CREDENTIALS")
-        PRIVATE_KEY=$(jq -r '.private_key' "$GOOGLE_APPLICATION_CREDENTIALS" | sed ':a;N;$!ba;s/\n/\\n/g')
-        echo "GSHEET_CLIENT_EMAIL=$CLIENT_EMAIL" >> $GITHUB_ENV
-        echo "GSHEET_PRIVATE_KEY=$PRIVATE_KEY" >> $GITHUB_ENV
-      shell: bash
-
-    - name: Export Google Sheet to CSV using gsheet.action
-      id: export_gsheet
-      uses: jroehl/gsheet.action@v2.1.1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        spreadsheetId: 1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE
-        commands: |
-          [
-            { "command": "getData", "args": { "worksheetTitle": "シート1" } }
-          ]
-      env:
-        GSHEET_CLIENT_EMAIL: ${{ env.GSHEET_CLIENT_EMAIL }}
-        GSHEET_PRIVATE_KEY: ${{ env.GSHEET_PRIVATE_KEY }}
+        node-version: '20'
 
-    - name: Save exported data as CSV
+    - name: Install npm dependencies for gss-csv.js
+      run: npm install googleapis google-auth-library
+      working-directory: .github/workflows
+
+    - name: Export Google Sheet to CSV using gss-csv.js
+      run: node gss-csv.js
+      working-directory: .github/workflows
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
+        SPREADSHEET_ID: 1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE
+
+    - name: Move exported CSV files
       run: |
-        echo '${{ steps.export_gsheet.outputs.results }}' | jq -r '.[] | @csv' > card_factory/source_csv/exported.csv
-      shell: bash
+        mkdir -p ../../../card_factory/source_csv
+        mv ./*.csv ../../../card_factory/source_csv/
+      working-directory: .github/workflows
 
     - name: Upload CSV files
       uses: actions/upload-artifact@v4
