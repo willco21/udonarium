@@ -46,6 +46,7 @@ jobs:
     - name: Extract Google credentials for gsheet.action
       id: extract_gsheet_creds
       run: |
+        cat $GOOGLE_APPLICATION_CREDENTIALS
         CLIENT_EMAIL=$(jq -r '.client_email' "$GOOGLE_APPLICATION_CREDENTIALS")
         PRIVATE_KEY=$(jq -r '.private_key' "$GOOGLE_APPLICATION_CREDENTIALS" | sed ':a;N;$!ba;s/\n/\\n/g')
         echo "GSHEET_CLIENT_EMAIL=$CLIENT_EMAIL" >> $GITHUB_ENV
@@ -54,9 +55,9 @@ jobs:
 
     - name: Export Google Sheet to CSV using gsheet.action
       id: export_gsheet
-      uses: jroehl/gsheet.action@v2.0.0
+      uses: jroehl/gsheet.action@v2.1.1
       with:
-        spreadsheetId: ${{ secrets.SHEET_ID }}
+        spreadsheetId: 1yQuUB2is4cz7awizPcavy-rdnRvvDkdltelndq1pkAE
         commands: |
           [
             { "command": "getData", "args": { "worksheetTitle": "シート1" } }
