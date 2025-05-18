@@ -70,10 +70,6 @@ jobs:
         echo '${{ steps.export_gsheet.outputs.results }}' | jq -r '.[] | @csv' > card_factory/source_csv/exported.csv
       shell: bash
 
-    - name: Install jq
-      run: sudo apt-get update && sudo apt-get install -y jq
-      if: failure() && !exists('jq')
-
     - name: Upload CSV files
       uses: actions/upload-artifact@v4
       with:
